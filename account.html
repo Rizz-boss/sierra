@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="img/logo.webp" alt=""></a>
+        <div class="navbar">
+
+            <div class="dropdown">
+                <button class="dropbtn">SHOP
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+
+                    <div class="row">
+                        <div class="column">
+                            <h3><a href="shop.html">MEN</a></h3>
+                            <a href="#">Jackets & Vests</a>
+                            <a href="#">Wind & Rainwears</a>
+                            <a href="#">Tops</a>
+                            <a href="#">Bottoms</a>
+                            <a href="#">Accessories</a>
+                        </div>
+                        <div class="column">
+                            <h3>WOMEN</h3>
+                            <a href="#">Jackets & Vests</a>
+                            <a href="#">Wind & Rainwears</a>
+                            <a href="#">Tops</a>
+                            <a href="#">Bottoms</a>
+                            <a href="#">Accessories</a>
+                        </div>
+                        <div class="column">
+                            <h3>TENTS</h3>
+                            <a href="#">Ultralight Tents</a>
+                            <a href="#">Backpacking Tents</a>
+                            <a href="#">Camping Tents</a>
+                            <a href="#">4-Seasons</a>
+                            <a href="#">Shelters</a>
+                            <a href="#">Accessories</a>
+                        </div>
+                        <div class="column">
+                            <h3>SLEEP SYSTEMS</h3>
+                            <a href="#">Zipperless Sleeping Bags</a>
+                            <a href="#">Zippered Sleeping Bags</a>
+                            <a href="#">Down Blankets & Quilts</a>
+                            <a href="#">Hammocks & Pads</a>
+                            <a href="#">Accessories</a>
+                        </div>
+                        <div class="column">
+                            <h3>PACKS</h3>
+                            <a href="#">Backpacking Packs</a>
+                            <a href="#">Daypacks</a>
+                            <a href="#">Coolers</a>
+                            <a href="#">Pack Accessories</a>
+                        </div>
+                        <div class="column">
+                            <h3>SHOP MORE</h3>
+                            <a href="#">New Arrivals</a>
+                            <a href="#">Award Winners</a>
+                            <a href="#">Adventure Out</a>
+                            <a href="#">Everest Basecamp</a>
+                            <a href="#">4-Season Gear</a>
+                            <a href="#">Family Camping</a>
+                            <a href="#">Holiday Gift Guide</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#news">EXPLORE</a>
+            <a href="#news">FIND GEAR</a>
+            <a href="#news">NEW</a>
+            <a href="#news">SALE</a>
+
+        </div>
+
+        <div class="list-items">
+            <div class="search">
+                <input type="text" placeholder="SEARCH">
+                <i class="fa-thin fa-magnifying-glass"></i>
+            </div>
+            <div class="profile">
+                <a href="admin.html"><img src="img/profile.png" alt=""></a>
+            </div>
+            <div class="cart">
+                <a href="cart.html"><img src="img/cart.png" alt=""></a>
+            </div>
+        </div>
+
+    </nav>
+
+
+    <div class="admin-header">
+        <h1>Create Account</h1>
+    </div>
+
+    <form id="form">
+        <div class="sign-in">
+            <label for="">Full name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <span class="error-message" id="nameError"></span><br>
+            <label for="">Phone Number</label><br>
+            <input type="tel" id="phoneNumber" name="phoneNumber"><br>
+            <span class="error-message" id="numberError"></span><br>
+            <label for="">Email Address:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <span class="error-message" id="emailError"></span><br>
+            <label for="">Age:</label><br>
+            <input type="number" id="age" name="age"><br>
+            <span class="error-message" id="ageError"></span><br>
+            <button class="btn" type="submit" onclick="account()">Create Account</button><br>
+            <a href="admin.html">Already have an Account? Sign in</a>
+        </div>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
